@@ -1,0 +1,8 @@
+<suite name="Suite1" parallel="classes" thread-count="1" verbose="1">
+    <test name="OmnevoTests">
+        <parameter name="url" value="https://cz.careers.veeam.com/vacancies"/>
+        <classes>
+            <class name="webTests.TestTask"/>
+        </classes>
+    </test>
+</suite>
